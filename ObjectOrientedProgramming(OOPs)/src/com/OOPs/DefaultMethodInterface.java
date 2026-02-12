@@ -10,7 +10,7 @@ class abcd implements Sos{
 
 }
 
-public class DefaultMthdInterface {
+public class DefaultMethodInterface {
     public static void main(String[] args) {
         Sos a = new abcd();
         a.disp();
