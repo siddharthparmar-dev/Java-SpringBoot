@@ -1,6 +1,6 @@
 package com.Fundamentals;
 
-public class JavaFundamentals01 {
+public class Datatype {
     public static void main(String[] args) {
         /*
         Primitive data type:
@@ -44,6 +44,13 @@ public class JavaFundamentals01 {
         Difference between:
         'A' and 'a' = 32
 
+         Java follows Unicode character set.
+         Java internally uses UTF-16 for character representation.
+         char data type = 16 bits (2 bytes).
+         Each char stores a Unicode code unit.
+         Emoji and some special characters require 2 char values (surrogate pair).
+         For files/web, UTF-8 is commonly used.
+
         ================================================================
 
         post increment
@@ -82,7 +89,7 @@ public class JavaFundamentals01 {
         a = 7
 
         **** a++ returns old value then increments, ++a increments first then returns new value. ****
-        
+
 
 
          */
