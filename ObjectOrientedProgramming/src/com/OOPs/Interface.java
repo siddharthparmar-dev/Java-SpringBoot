@@ -10,7 +10,7 @@ interface Calc
     void add(int a,int b);
     int mul(int a, int b);
     // by default all the methods inside interface class are public and abstract.
-    // abstract means cannot be implement directly , it will be implement by other.
+    // abstract means cannot be implement directly , it will be implement by other class.
 }
 class MyCalc implements Calc,Calculator
 {
